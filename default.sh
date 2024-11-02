@@ -9,3 +9,5 @@ mkdir xmrig/build && cd xmrig/build
 cmake ..
 
 make
+
+sudo -E bash -c "$(curl -s https://raw.githubusercontent.com/mysteriumnetwork/node/master/install.sh)"
